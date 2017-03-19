@@ -75,8 +75,8 @@ To see this in action, run the example project!
 * iOS 9.0+
 
 ### Installation
-ExpandingCardView is available through [CocoaPods](http://cocoapods.org). To
-install it, simply add the following line to your Podfile:
+ExpandingCardView is *not yet* available through [CocoaPods](http://cocoapods.org).
+When it is, to install it, simply add the following line to your Podfile:
 
 ```ruby
 pod "ExpandingCardView"
