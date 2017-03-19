@@ -45,7 +45,7 @@ public class ExpandingCardView: UIView {
                 v.translatesAutoresizingMaskIntoConstraints = false
             }
             self.scrollView.addSubview(contentView)
-            contentViewConstraints += tlbrConstraintsEqual(scrollView, contentView)
+            contentViewConstraints += NSLayoutConstraint.tlbrConstraintsEqual(scrollView, contentView)
 
             // Constrain the width so we don't scroll horizontally.
             contentViewConstraints.append(scrollView.widthAnchor.constraint(equalTo: contentView.widthAnchor))
@@ -101,19 +101,9 @@ public class ExpandingCardView: UIView {
             view.translatesAutoresizingMaskIntoConstraints = false
         }
 
-        let constraints = tlbrConstraintsEqual(self, scrollView) + [heightConstraint]
+        let constraints = NSLayoutConstraint.tlbrConstraintsEqual(self, scrollView) + [heightConstraint]
         NSLayoutConstraint.activate(constraints)
     }
-}
-
-// Intentionally not using SnapKit/adding extension - this may be a library.
-private func tlbrConstraintsEqual(_ v1: UIView, _ v2: UIView) -> [NSLayoutConstraint] {
-    return [
-        v1.topAnchor.constraint(equalTo: v2.topAnchor),
-        v1.leadingAnchor.constraint(equalTo: v2.leadingAnchor),
-        v1.trailingAnchor.constraint(equalTo: v2.trailingAnchor),
-        v1.bottomAnchor.constraint(equalTo: v2.bottomAnchor),
-    ]
 }
 
 extension ExpandingCardView: ObservableScrollViewDelegate {
