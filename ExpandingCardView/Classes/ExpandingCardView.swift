@@ -4,13 +4,9 @@
 
 import UIKit
 
-// NOTE: [mcomella] It'd be cool to turn this into a library, which is why it is structured
-// as one. Please keep it clean, if possible! :)
-
 // TODO:
 // - TODOs in file
 // - Option to animate layout changes?
-// - Verify access control
 // - Warn if contentView not set (crash? log?)
 // - Break out into library (test using elsewhere, samples, readme w/ public methods;
 //   show how we can use constraint(equalTo:) and constraint(lessThanOrEqualTo:)
@@ -21,11 +17,11 @@ import UIKit
 /// The content view can be assigned with `expandingCardView.contentView = ...`. To correctly
 /// expand, the content view must have a defined height: e.g. a UIStackView, a view with
 /// a heightAnchor, or a view with intrinsicContentSize (like UILabel).
-public class ExpandingCardView: UIView {
+open class ExpandingCardView: UIView {
 
     // MARK: public API
 
-    public override var backgroundColor: UIColor? {
+    open override var backgroundColor: UIColor? {
         get { return scrollView.backgroundColor }
         set { scrollView.backgroundColor = newValue }
     }
