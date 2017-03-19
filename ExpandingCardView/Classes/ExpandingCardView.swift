@@ -82,11 +82,11 @@ open class ExpandingCardView: UIView {
 
     private func initStyle() {
         scrollView.backgroundColor = .white
-        scrollView.layer.cornerRadius = 10
+        scrollView.layer.cornerRadius = 2
 
         layer.masksToBounds = false
         layer.shadowOffset = CGSize(width: 0, height: 2)
-        layer.shadowRadius = 10
+        layer.shadowRadius = 2
         layer.shadowOpacity = 0.4
     }
 
