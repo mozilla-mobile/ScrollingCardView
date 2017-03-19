@@ -33,7 +33,7 @@ open class ExpandingCardView: UIView {
     public var contentView: UIView? {
         didSet {
             oldValue?.removeFromSuperview()
-            for c in contentViewConstraints { c.isActive = false }
+            NSLayoutConstraint.deactivate(contentViewConstraints)
             contentViewConstraints.removeAll(keepingCapacity: true)
 
             guard let contentView = contentView else { return }
