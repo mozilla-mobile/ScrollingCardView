@@ -1,0 +1,25 @@
+Before launch:
+- Testing adding to Prox (local)
+- Change name? ScrollingCardView?
+- ? warn if contentView not set
+- should Commit pods?
+- Push to GH
+- Improve readme (equalTo: vs lessThanOrEqualTo:)
+- Ensure license compatibility (with libs I'm using)
+  - Make example use more lenient license?
+- podspec (version)
+- Push to Cocoapods (carthage? test!) (version? always ++?)
+- Prox to use cocoapods
+- Email team
+
+Later:
+- Remaining TODOs in file.
+- Set requiresConstraintBasedLayout?
+- Warn if contentView not set (crash? log?)
+- Option to animate layout changes?
+- Tests / samples:
+  - contentView changes size from changing intrinsic size
+  - modifying contentView after initial set
+- Set easy padding inside card view?
+- UX: How to show this view is scrollable? What would Material do?
+  - Alternatively, make scrollView public so others can handle themselves

@@ -4,13 +4,6 @@
 
 import UIKit
 
-// TODO:
-// - TODOs in file
-// - Option to animate layout changes?
-// - Warn if contentView not set (crash? log?)
-// - Break out into library (test using elsewhere, samples, readme w/ public methods;
-//   show how we can use constraint(equalTo:) and constraint(lessThanOrEqualTo:)
-
 /// A floating card view which will expand to display its full content without scrolling.
 /// If the height is constrained, the content will automatically be scrollable.
 ///
