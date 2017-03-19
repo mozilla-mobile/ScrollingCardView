@@ -26,4 +26,4 @@ Michael Comella, michael.l.comella@gmail.com
 
 ## License
 
-ExpandingCardView is available under the MIT license. See the LICENSE file for more info.
+ExpandingCardView is available under MPLv2. See the LICENSE file for more info.
