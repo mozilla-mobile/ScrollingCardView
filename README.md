@@ -5,16 +5,36 @@
 [![License](https://img.shields.io/cocoapods/l/ExpandingCardView.svg?style=flat)](http://cocoapods.org/pods/ExpandingCardView)
 [![Platform](https://img.shields.io/cocoapods/p/ExpandingCardView.svg?style=flat)](http://cocoapods.org/pods/ExpandingCardView)
 
-ExpandingCardView is card view widget that can expand to match its intrinsic
-content size. If the height is constrained, the view will automatically enable
-scrolling to ensure all content is visible.
+ExpandingCardView is an iOS card view widget will hug its content, growing
+until its height is constrained. At this point, scrolling will automatically
+be enabled, alowing the user to read all the widget's content.
+
+In the following example, the card view height is constrained to be less
+than or equal to the screen size. First, the content does not fill the screen
+and neither does the card view:
 
 <div align="center">
 <img src="docs/short-text.png" width="300px"/>
+</div>
+
+As the content grows, the card view will expand until the screen size,
+at which point scrolling is enabled, as demonstrated below:
+
+<div align="center">
 <img src="docs/long-text.png" width="300px"/>
 </div>
 
-Corner radius, card background color, and shadow properties are customizable.
+The card's corner radius, background color, and shadow are customizable.
+
+## Motivation
+We wanted a card view widget that hugs its content until the card view was
+as large as the screen, then it would allow the user to scroll its content
+to ensure all of it was visible. As far as we could find, this library
+doesn't exist.
+
+We could repurpose an existing card view library and build the
+growing/scrolling functionality on top of it, but this could be fragile
+and hard-to-extend.
 
 ExpandingCardView was originally created for use in [Mozilla's Project
 Prox][prox].
