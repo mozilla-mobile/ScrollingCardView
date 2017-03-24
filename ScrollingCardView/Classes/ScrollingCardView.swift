@@ -10,7 +10,7 @@ import UIKit
 /// The content view can be assigned with `expandingCardView.contentView = ...`. To correctly
 /// expand, the content view must have a defined height: e.g. a UIStackView, a view with
 /// a heightAnchor, or a view with intrinsicContentSize (like UILabel).
-open class ExpandingCardView: UIView {
+open class ScrollingCardView: UIView {
 
     // MARK: public API
 
@@ -95,7 +95,7 @@ open class ExpandingCardView: UIView {
     }
 }
 
-extension ExpandingCardView: ObservableScrollViewDelegate {
+extension ScrollingCardView: ObservableScrollViewDelegate {
     func observableScrollView(_ scrollView: ObservableScrollView, onContentSizeUpdate contentSize: CGSize) {
         self.heightConstraint.constant = contentSize.height
     }

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D3E538653DAA28C8FD505AD /* Pods_ExpandingCardView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA2035751BC11829C670BA5 /* Pods_ExpandingCardView_Tests.framework */; };
-		5DCAF5A531EFEA5BEEC848AD /* Pods_ExpandingCardView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0AB5D440678A9AD55A1652 /* Pods_ExpandingCardView_Example.framework */; };
+		3D3E538653DAA28C8FD505AD /* Pods_ScrollingCardView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA2035751BC11829C670BA5 /* Pods_ScrollingCardView_Tests.framework */; };
+		5DCAF5A531EFEA5BEEC848AD /* Pods_ScrollingCardView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0AB5D440678A9AD55A1652 /* Pods_ScrollingCardView_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -22,29 +22,29 @@
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = ExpandingCardView;
+			remoteInfo = ScrollingCardView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0FE690042B7460A31E5F2A4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		198934EFDDBD63D8EA062BB2 /* Pods-ExpandingCardView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpandingCardView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExpandingCardView_Example/Pods-ExpandingCardView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3BFC92BF02AE9D69EA29E9B7 /* ExpandingCardView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ExpandingCardView.podspec; path = ../ExpandingCardView.podspec; sourceTree = "<group>"; };
-		5016B78D08DB165F603B780E /* Pods-ExpandingCardView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpandingCardView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExpandingCardView_Example/Pods-ExpandingCardView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		198934EFDDBD63D8EA062BB2 /* Pods-ScrollingCardView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollingCardView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollingCardView_Example/Pods-ScrollingCardView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3BFC92BF02AE9D69EA29E9B7 /* ScrollingCardView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ScrollingCardView.podspec; path = ../ScrollingCardView.podspec; sourceTree = "<group>"; };
+		5016B78D08DB165F603B780E /* Pods-ScrollingCardView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollingCardView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollingCardView_Example/Pods-ScrollingCardView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		564E575E73420BC602B00D8D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5F4628A066C56C37FE10181E /* Pods-ExpandingCardView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpandingCardView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExpandingCardView_Tests/Pods-ExpandingCardView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* ExpandingCardView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpandingCardView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F4628A066C56C37FE10181E /* Pods-ScrollingCardView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollingCardView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollingCardView_Tests/Pods-ScrollingCardView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* ScrollingCardView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollingCardView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* ExpandingCardView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpandingCardView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* ScrollingCardView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingCardView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7CA2035751BC11829C670BA5 /* Pods_ExpandingCardView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExpandingCardView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD0AB5D440678A9AD55A1652 /* Pods_ExpandingCardView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExpandingCardView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC49B34865A2A23240C93793 /* Pods-ExpandingCardView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpandingCardView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExpandingCardView_Tests/Pods-ExpandingCardView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CA2035751BC11829C670BA5 /* Pods_ScrollingCardView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollingCardView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0AB5D440678A9AD55A1652 /* Pods_ScrollingCardView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollingCardView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC49B34865A2A23240C93793 /* Pods-ScrollingCardView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollingCardView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollingCardView_Tests/Pods-ScrollingCardView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DCAF5A531EFEA5BEEC848AD /* Pods_ExpandingCardView_Example.framework in Frameworks */,
+				5DCAF5A531EFEA5BEEC848AD /* Pods_ScrollingCardView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D3E538653DAA28C8FD505AD /* Pods_ExpandingCardView_Tests.framework in Frameworks */,
+				3D3E538653DAA28C8FD505AD /* Pods_ScrollingCardView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,8 +70,8 @@
 		1B171CD146CF766D6D67A32A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AD0AB5D440678A9AD55A1652 /* Pods_ExpandingCardView_Example.framework */,
-				7CA2035751BC11829C670BA5 /* Pods_ExpandingCardView_Tests.framework */,
+				AD0AB5D440678A9AD55A1652 /* Pods_ScrollingCardView_Example.framework */,
+				7CA2035751BC11829C670BA5 /* Pods_ScrollingCardView_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -79,10 +79,10 @@
 		4A6821F261B7FCDC04F3AFA5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				198934EFDDBD63D8EA062BB2 /* Pods-ExpandingCardView_Example.debug.xcconfig */,
-				5016B78D08DB165F603B780E /* Pods-ExpandingCardView_Example.release.xcconfig */,
-				FC49B34865A2A23240C93793 /* Pods-ExpandingCardView_Tests.debug.xcconfig */,
-				5F4628A066C56C37FE10181E /* Pods-ExpandingCardView_Tests.release.xcconfig */,
+				198934EFDDBD63D8EA062BB2 /* Pods-ScrollingCardView_Example.debug.xcconfig */,
+				5016B78D08DB165F603B780E /* Pods-ScrollingCardView_Example.release.xcconfig */,
+				FC49B34865A2A23240C93793 /* Pods-ScrollingCardView_Tests.debug.xcconfig */,
+				5F4628A066C56C37FE10181E /* Pods-ScrollingCardView_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -91,7 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for ExpandingCardView */,
+				607FACD21AFB9204008FA782 /* Example for ScrollingCardView */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				4A6821F261B7FCDC04F3AFA5 /* Pods */,
@@ -102,13 +102,13 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* ExpandingCardView_Example.app */,
-				607FACE51AFB9204008FA782 /* ExpandingCardView_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* ScrollingCardView_Example.app */,
+				607FACE51AFB9204008FA782 /* ScrollingCardView_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for ExpandingCardView */ = {
+		607FACD21AFB9204008FA782 /* Example for ScrollingCardView */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -117,8 +117,8 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for ExpandingCardView";
-			path = ExpandingCardView;
+			name = "Example for ScrollingCardView";
+			path = ScrollingCardView;
 			sourceTree = "<group>";
 		};
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
@@ -149,7 +149,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				3BFC92BF02AE9D69EA29E9B7 /* ExpandingCardView.podspec */,
+				3BFC92BF02AE9D69EA29E9B7 /* ScrollingCardView.podspec */,
 				0FE690042B7460A31E5F2A4B /* README.md */,
 				564E575E73420BC602B00D8D /* LICENSE */,
 			);
@@ -159,9 +159,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* ExpandingCardView_Example */ = {
+		607FACCF1AFB9204008FA782 /* ScrollingCardView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ExpandingCardView_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ScrollingCardView_Example" */;
 			buildPhases = (
 				92B8CE40050079EA5357E050 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -174,14 +174,14 @@
 			);
 			dependencies = (
 			);
-			name = ExpandingCardView_Example;
-			productName = ExpandingCardView;
-			productReference = 607FACD01AFB9204008FA782 /* ExpandingCardView_Example.app */;
+			name = ScrollingCardView_Example;
+			productName = ScrollingCardView;
+			productReference = 607FACD01AFB9204008FA782 /* ScrollingCardView_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* ExpandingCardView_Tests */ = {
+		607FACE41AFB9204008FA782 /* ScrollingCardView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ExpandingCardView_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ScrollingCardView_Tests" */;
 			buildPhases = (
 				6FA9114AC00FBA382973D656 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
@@ -195,9 +195,9 @@
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = ExpandingCardView_Tests;
+			name = ScrollingCardView_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* ExpandingCardView_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* ScrollingCardView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "ExpandingCardView" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "ScrollingCardView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,8 +234,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* ExpandingCardView_Example */,
-				607FACE41AFB9204008FA782 /* ExpandingCardView_Tests */,
+				607FACCF1AFB9204008FA782 /* ScrollingCardView_Example */,
+				607FACE41AFB9204008FA782 /* ScrollingCardView_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,7 +272,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExpandingCardView_Example/Pods-ExpandingCardView_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollingCardView_Example/Pods-ScrollingCardView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3CDBF4678A6C1A2082225CA7 /* [CP] Copy Pods Resources */ = {
@@ -287,7 +287,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExpandingCardView_Example/Pods-ExpandingCardView_Example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollingCardView_Example/Pods-ScrollingCardView_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		550FE0F086246CD553B9D99F /* [CP] Embed Pods Frameworks */ = {
@@ -302,7 +302,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExpandingCardView_Tests/Pods-ExpandingCardView_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollingCardView_Tests/Pods-ScrollingCardView_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6FA9114AC00FBA382973D656 /* [CP] Check Pods Manifest.lock */ = {
@@ -347,7 +347,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExpandingCardView_Tests/Pods-ExpandingCardView_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollingCardView_Tests/Pods-ScrollingCardView_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -375,7 +375,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* ExpandingCardView_Example */;
+			target = 607FACCF1AFB9204008FA782 /* ScrollingCardView_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -481,10 +481,10 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 198934EFDDBD63D8EA062BB2 /* Pods-ExpandingCardView_Example.debug.xcconfig */;
+			baseConfigurationReference = 198934EFDDBD63D8EA062BB2 /* Pods-ScrollingCardView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ExpandingCardView/Info.plist;
+				INFOPLIST_FILE = ScrollingCardView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -495,10 +495,10 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5016B78D08DB165F603B780E /* Pods-ExpandingCardView_Example.release.xcconfig */;
+			baseConfigurationReference = 5016B78D08DB165F603B780E /* Pods-ScrollingCardView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ExpandingCardView/Info.plist;
+				INFOPLIST_FILE = ScrollingCardView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -509,7 +509,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC49B34865A2A23240C93793 /* Pods-ExpandingCardView_Tests.debug.xcconfig */;
+			baseConfigurationReference = FC49B34865A2A23240C93793 /* Pods-ScrollingCardView_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -529,7 +529,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F4628A066C56C37FE10181E /* Pods-ExpandingCardView_Tests.release.xcconfig */;
+			baseConfigurationReference = 5F4628A066C56C37FE10181E /* Pods-ScrollingCardView_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -546,7 +546,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "ExpandingCardView" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "ScrollingCardView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -555,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ExpandingCardView_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ScrollingCardView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ExpandingCardView_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ScrollingCardView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,

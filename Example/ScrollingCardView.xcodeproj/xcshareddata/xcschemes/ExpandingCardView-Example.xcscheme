@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "ExpandingCardView_Example.app"
-               BlueprintName = "ExpandingCardView_Example"
-               ReferencedContainer = "container:ExpandingCardView.xcodeproj">
+               BuildableName = "ScrollingCardView_Example.app"
+               BlueprintName = "ScrollingCardView_Example"
+               ReferencedContainer = "container:ScrollingCardView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "ExpandingCardView_Tests.xctest"
-               BlueprintName = "ExpandingCardView_Tests"
-               ReferencedContainer = "container:ExpandingCardView.xcodeproj">
+               BuildableName = "ScrollingCardView_Tests.xctest"
+               BlueprintName = "ScrollingCardView_Tests"
+               ReferencedContainer = "container:ScrollingCardView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "ExpandingCardView_Tests.xctest"
-               BlueprintName = "ExpandingCardView_Tests"
-               ReferencedContainer = "container:ExpandingCardView.xcodeproj">
+               BuildableName = "ScrollingCardView_Tests.xctest"
+               BlueprintName = "ScrollingCardView_Tests"
+               ReferencedContainer = "container:ScrollingCardView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "ExpandingCardView_Example.app"
-            BlueprintName = "ExpandingCardView_Example"
-            ReferencedContainer = "container:ExpandingCardView.xcodeproj">
+            BuildableName = "ScrollingCardView_Example.app"
+            BlueprintName = "ScrollingCardView_Example"
+            ReferencedContainer = "container:ScrollingCardView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "ExpandingCardView_Example.app"
-            BlueprintName = "ExpandingCardView_Example"
-            ReferencedContainer = "container:ExpandingCardView.xcodeproj">
+            BuildableName = "ScrollingCardView_Example.app"
+            BlueprintName = "ScrollingCardView_Example"
+            ReferencedContainer = "container:ScrollingCardView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -99,9 +99,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "ExpandingCardView_Example.app"
-            BlueprintName = "ExpandingCardView_Example"
-            ReferencedContainer = "container:ExpandingCardView.xcodeproj">
+            BuildableName = "ScrollingCardView_Example.app"
+            BlueprintName = "ScrollingCardView_Example"
+            ReferencedContainer = "container:ScrollingCardView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

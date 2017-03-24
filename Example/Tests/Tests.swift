@@ -2,7 +2,7 @@
 
 import Quick
 import Nimble
-import ExpandingCardView
+import ScrollingCardView
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {

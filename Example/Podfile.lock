@@ -1,5 +1,4 @@
 PODS:
-  - ExpandingCardView (0.1.0)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -13,25 +12,26 @@ PODS:
     - Nimble
     - Quick
   - Quick (1.0.0)
+  - ScrollingCardView (0.1.0)
 
 DEPENDENCIES:
-  - ExpandingCardView (from `../`)
   - FBSnapshotTestCase
   - Nimble (~> 5.1.1)
   - Nimble-Snapshots
   - Quick (~> 1.0.0)
+  - ScrollingCardView (from `../`)
 
 EXTERNAL SOURCES:
-  ExpandingCardView:
+  ScrollingCardView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ExpandingCardView: 6acea633e95c125aff02a589d36c3c7921b6f0c6
   FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  ScrollingCardView: cd8cca0e96fa6cd48fd4d57fe807588fe7bb08c0
 
-PODFILE CHECKSUM: bb45df61372e6f0e366d7936287e30788df31af6
+PODFILE CHECKSUM: 9232ad148d8440551a69d9a5a6f7ae1462632d44
 
 COCOAPODS: 1.2.0

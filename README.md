@@ -1,11 +1,11 @@
-# ExpandingCardView
+# ScrollingCardView
 
-[![CI Status](http://img.shields.io/travis/mcomella/ExpandingCardView.svg?style=flat)](https://travis-ci.org/mcomella/ExpandingCardView)
-[![Version](https://img.shields.io/cocoapods/v/ExpandingCardView.svg?style=flat)](http://cocoapods.org/pods/ExpandingCardView)
-[![License](https://img.shields.io/cocoapods/l/ExpandingCardView.svg?style=flat)](http://cocoapods.org/pods/ExpandingCardView)
-[![Platform](https://img.shields.io/cocoapods/p/ExpandingCardView.svg?style=flat)](http://cocoapods.org/pods/ExpandingCardView)
+[![CI Status](http://img.shields.io/travis/mcomella/ScrollingCardView.svg?style=flat)](https://travis-ci.org/mcomella/ScrollingCardView)
+[![Version](https://img.shields.io/cocoapods/v/ScrollingCardView.svg?style=flat)](http://cocoapods.org/pods/ScrollingCardView)
+[![License](https://img.shields.io/cocoapods/l/ScrollingCardView.svg?style=flat)](http://cocoapods.org/pods/ScrollingCardView)
+[![Platform](https://img.shields.io/cocoapods/p/ScrollingCardView.svg?style=flat)](http://cocoapods.org/pods/ScrollingCardView)
 
-ExpandingCardView is an iOS card view widget will hug its content, growing
+ScrollingCardView is an iOS card view widget will hug its content, growing
 until its height is constrained. At this point, scrolling will automatically
 be enabled, alowing the user to read all the widget's content.
 
@@ -36,13 +36,13 @@ We could repurpose an existing card view library and build the
 growing/scrolling functionality on top of it, but this could be fragile
 and hard-to-extend.
 
-ExpandingCardView was originally created for use in [Mozilla's Project
+ScrollingCardView was originally created for use in [Mozilla's Project
 Prox][prox].
 
 ## Usage
 ```swift
 // 1. Create your view, enable autolayout, and add it to the view hierarchy.
-let cardView = ExpandingCardView()
+let cardView = ScrollingCardView()
 cardView.translatesAutoresizingMaskIntoConstraints = false
 parentView.addSubview(cardView) // e.g. parent could be the ViewController's view
 
@@ -95,11 +95,11 @@ To see this in action, run the example project!
 * iOS 9.0+
 
 ### Installation
-ExpandingCardView is *not yet* available through [CocoaPods](http://cocoapods.org).
+ScrollingCardView is *not yet* available through [CocoaPods](http://cocoapods.org).
 When it is, to install it, simply add the following line to your Podfile:
 
 ```ruby
-pod "ExpandingCardView"
+pod "ScrollingCardView"
 ```
 
 ### Notes
@@ -113,7 +113,7 @@ To run the example project:
 pushd Example/
 pod install
 popd
-open Example/ExpandingCardView.xcworkspace
+open Example/ScrollingCardView.xcworkspace
 ```
 
 Xcode will open: run from there.
@@ -122,14 +122,14 @@ Xcode will open: run from there.
 Follow the instructions above to open the example project. The library files
 can be found in:
 
-Pods -> Development Pods -> ExpandingCardView -> ExpandingCardView -> Classes
+Pods -> Development Pods -> ScrollingCardView -> ScrollingCardView -> Classes
 
 ### Testing against external applications
 If you're developing against an external application, you can specify a
 relative path from the application's podfile to your fork of this library:
 
 ```ruby
-pod "ExpandingCardView", :path => "../ExpandingCardView"
+pod "ScrollingCardView", :path => "../ScrollingCardView"
 ```
 
 Run `pod install` in the external application's directory.

@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'ExpandingCardView_Example' do
-  pod 'ExpandingCardView', :path => '../'
+target 'ScrollingCardView_Example' do
+  pod 'ScrollingCardView', :path => '../'
 
-  target 'ExpandingCardView_Tests' do
+  target 'ScrollingCardView_Tests' do
     inherit! :search_paths
 
     pod 'Quick', '~> 1.0.0'

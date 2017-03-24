@@ -3,13 +3,13 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import UIKit
-import ExpandingCardView
+import ScrollingCardView
 
 private let horizontalMargin: CGFloat = 16
 
 class ViewController: UIViewController {
 
-    private lazy var cardView = ExpandingCardView()
+    private lazy var cardView = ScrollingCardView()
 
     private lazy var cardViewContent: UILabel = {
         let view = UILabel()
