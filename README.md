@@ -95,8 +95,9 @@ To see this in action, run the example project!
 * Swift 3
 
 ### Installation
-ScrollingCardView is *not yet* available through [CocoaPods](http://cocoapods.org).
-When it is, to install it, simply add the following line to your Podfile:
+ScrollingCardView is [available through
+CocoaPods](http://cocoapods.org/pods/ScrollingCardView). Add the following to
+your Podfile:
 
 ```ruby
 pod "ScrollingCardView"
