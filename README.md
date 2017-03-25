@@ -1,6 +1,5 @@
 # ScrollingCardView
 
-[![CI Status](http://img.shields.io/travis/mcomella/ScrollingCardView.svg?style=flat)](https://travis-ci.org/mcomella/ScrollingCardView)
 [![Version](https://img.shields.io/cocoapods/v/ScrollingCardView.svg?style=flat)](http://cocoapods.org/pods/ScrollingCardView)
 [![License](https://img.shields.io/cocoapods/l/ScrollingCardView.svg?style=flat)](http://cocoapods.org/pods/ScrollingCardView)
 [![Platform](https://img.shields.io/cocoapods/p/ScrollingCardView.svg?style=flat)](http://cocoapods.org/pods/ScrollingCardView)
