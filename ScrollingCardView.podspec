@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ScrollingCardView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ScrollingCardView.'
+  s.summary          = 'A scrolling card view for iOS that grow with its content.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A card view widget for iOS that hugs its content, dynamically expanding the
+height when the content height expands. If the content is taller than the card,
+scrolling will automatically be enabled so all content can be seen.
                        DESC
 
-  s.homepage         = 'https://github.com/Michael Comella/ScrollingCardView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/mozilla-mobile/ScrollingCardView'
+  s.screenshots     = 'https://raw.githubusercontent.com/mozilla-mobile/ScrollingCardView/master/docs/short-text.png', 'https://raw.githubusercontent.com/mozilla-mobile/ScrollingCardView/master/docs/long-text.png'
   s.license          = { :type => 'MPLv2', :file => 'LICENSE' }
   s.author           = { 'Michael Comella' => 'michael.l.comella@gmail.com' }
-  s.source           = { :git => 'https://github.com/Michael Comella/ScrollingCardView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mozilla-mobile/ScrollingCardView.git', :tag => 'v0.1.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -37,6 +39,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

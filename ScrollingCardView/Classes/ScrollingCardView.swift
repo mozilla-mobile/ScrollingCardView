@@ -4,10 +4,11 @@
 
 import UIKit
 
-/// A floating card view which will expand to display its full content without scrolling.
-/// If the height is constrained, the content will automatically be scrollable.
+/// A card view that:
+///   * Hugs its content, dynamcially expanding the height when the content does
+///   * Will scroll its content if the content is taller than the card (e.g. height is constrained)
 ///
-/// The content view can be assigned with `expandingCardView.contentView = ...`. To correctly
+/// The content view can be assigned with `scrollingCardView.contentView = ...`. To correctly
 /// expand, the content view must have a defined height: e.g. a UIStackView, a view with
 /// a heightAnchor, or a view with intrinsicContentSize (like UILabel).
 open class ScrollingCardView: UIView {

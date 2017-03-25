@@ -5,9 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/ScrollingCardView.svg?style=flat)](http://cocoapods.org/pods/ScrollingCardView)
 [![Platform](https://img.shields.io/cocoapods/p/ScrollingCardView.svg?style=flat)](http://cocoapods.org/pods/ScrollingCardView)
 
-ScrollingCardView is an iOS card view widget will hug its content, growing
-until its height is constrained. At this point, scrolling will automatically
-be enabled, alowing the user to read all the widget's content.
+ScrollingCardView is an iOS card view widget that:
+
+* Hugs its content, dynamically expanding the height when the content height
+expands
+* Will scroll its content if the content is taller than the card
 
 In the following example, the card view height is constrained to be less
 than or equal to the screen size. First, the content does not fill the screen
@@ -27,14 +29,12 @@ at which point scrolling is enabled, as demonstrated below:
 The card's corner radius, background color, and shadow are customizable.
 
 ## Motivation
-We wanted a card view widget that hugs its content until the card view was
-as large as the screen, then it would allow the user to scroll its content
-to ensure all of it was visible. As far as we could find, this library
-doesn't exist.
+As far as we could find, no existing library met the requirements for the card
+view we describe above.
 
 We could repurpose an existing card view library and build the
-growing/scrolling functionality on top of it, but this could be fragile
-and hard-to-extend.
+growing/scrolling functionality on top of it, but this be hard-to-extend and
+fragile.
 
 ScrollingCardView was originally created for use in [Mozilla's Project
 Prox][prox].
@@ -93,6 +93,7 @@ To see this in action, run the example project!
 
 ### Requirements
 * iOS 9.0+
+* Swift 3
 
 ### Installation
 ScrollingCardView is *not yet* available through [CocoaPods](http://cocoapods.org).
