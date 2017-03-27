@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ScrollingCardView'
   s.version          = '0.1.0'
-  s.summary          = 'A scrolling card view for iOS that grow with its content.'
+  s.summary          = 'A scrolling card view for iOS that grows with its content.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
