@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ScrollingCardView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A scrolling card view for iOS that grows with its content.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ scrolling will automatically be enabled so all content can be seen.
   s.screenshots     = 'https://raw.githubusercontent.com/mozilla-mobile/ScrollingCardView/master/docs/short-text.png', 'https://raw.githubusercontent.com/mozilla-mobile/ScrollingCardView/master/docs/long-text.png'
   s.license          = { :type => 'MPLv2', :file => 'LICENSE' }
   s.author           = { 'Michael Comella' => 'michael.l.comella@gmail.com' }
-  s.source           = { :git => 'https://github.com/mozilla-mobile/ScrollingCardView.git', :tag => 'v0.1.0' }
+  s.source           = { :git => 'https://github.com/mozilla-mobile/ScrollingCardView.git', :tag => 'v0.1.1' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
