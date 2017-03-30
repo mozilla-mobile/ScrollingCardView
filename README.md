@@ -111,9 +111,6 @@ pod "ScrollingCardView"
 To run the example project:
 
 ```
-pushd Example/
-pod install
-popd
 open Example/ScrollingCardView.xcworkspace
 ```
 
