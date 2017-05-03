@@ -103,6 +103,19 @@ your Podfile:
 pod "ScrollingCardView"
 ```
 
+#### Carthage
+ScrollingCardView is also available through Carthage. Add the following to your
+Cartfile:
+
+```
+github "mozilla-mobile/ScrollingCardView" >= 0.1.2
+```
+
+Then drag-and-drop `Carthage/Build/iOS/ScrollingCardView.framework` into your
+"Linked Frameworks and Libraries" section and add the `copy-frameworks` script
+as specified in the [Carthage github
+readme](https://github.com/Carthage/Carthage/).
+
 ### Notes
 * This project is not tested with Interface Builder
 * This project is unlikely to work with non-constraint based layouts
@@ -112,6 +125,16 @@ To run the example project:
 
 ```
 open Example/ScrollingCardView.xcworkspace
+```
+
+Xcode will open: run from there.
+
+### Carthage
+To run the Carthage example project:
+```sh
+cd Example_Carthage
+carthage update
+open Example_Carthage.xcodeproj
 ```
 
 Xcode will open: run from there.
