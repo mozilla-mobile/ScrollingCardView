@@ -1,0 +1,1 @@
+../../Example/ScrollingCardView/AppDelegate.swift

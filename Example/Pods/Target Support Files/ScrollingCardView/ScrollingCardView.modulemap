@@ -1,0 +1,6 @@
+framework module ScrollingCardView {
+  umbrella header "ScrollingCardView-umbrella.h"
+
+  export *
+  module * { export * }
+}
