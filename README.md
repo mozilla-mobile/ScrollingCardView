@@ -1,5 +1,5 @@
 # ScrollingCardView
-
+[![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=594d5289165d1f0001d4d926&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/594d5289165d1f0001d4d926/build/latest?branch=master)
 [![Version](https://img.shields.io/cocoapods/v/ScrollingCardView.svg?style=flat)](http://cocoapods.org/pods/ScrollingCardView)
 [![License](https://img.shields.io/cocoapods/l/ScrollingCardView.svg?style=flat)](http://cocoapods.org/pods/ScrollingCardView)
 [![Platform](https://img.shields.io/cocoapods/p/ScrollingCardView.svg?style=flat)](http://cocoapods.org/pods/ScrollingCardView)
